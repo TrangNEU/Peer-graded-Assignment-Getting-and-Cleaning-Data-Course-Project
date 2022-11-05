@@ -5,8 +5,8 @@ library(data.table)
 library(dplyr)
 
 #Read Supporting Metadata
-featureNames <- read.table("UCI HAR Dataset/features.txt")
-activityLabels <- read.table("UCI HAR Dataset/activity_labels.txt", header = FALSE)
+featureNames <- read.table("D:/UCI HAR Dataset/features.txt")
+activityLabels <- read.table("D:/UCI HAR Dataset/activity_labels.txt", header = FALSE)
 
 #Format train data
 #The data is split up into subject, activity and features
